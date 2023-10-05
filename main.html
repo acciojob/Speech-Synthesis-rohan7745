@@ -8,10 +8,10 @@
   </head>
   <body>
     <select id="voices" onchange="changeVoice()">
-      <option value="">Choose a Voice</option>
+      <option value="" class="textarea">Choose a Voice</option>
     </select>
 
-    <button onclick="stop()">Stop</button>
+    <button onclick="stop()" id="stop">Stop</button>
     <button onclick="play()">Play</button>
     <script src="./speech.js"></script>
   </body>
